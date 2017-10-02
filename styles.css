@@ -32,7 +32,7 @@ div #leftnav{
 #leftnav {
  list-style-type: none;
  position: absolute;
- margin-top: -37.89em;
+ margin-top: -41.35em;
  margin-left: 0.3125em;
  max-width: 9.375em;
  border-style: dashed;
@@ -73,7 +73,8 @@ a:hover{
   position: static;
   display: inline-block;
   max-width: 56.75em;
-  max-height: 21.875em;
+  height: 10.975em;
+  overflow: hidden;
   margin-left: 11.5125em;
   margin-right: 12.3125em;
   margin-bottom: 1.125em;
@@ -89,7 +90,7 @@ a:hover{
 
 #rightnav {
  position: sticky;
- margin-top: -37.89em;
+ margin-top: -41.35em;
  padding: 0.625em;
  width: 9.375em;
  max-height: 63.875em;
