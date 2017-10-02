@@ -1,0 +1,114 @@
+/*Whole page body & css for tags*/
+body{
+  background-color: #1c807f;
+
+}
+
+div{
+  background-color: white;
+  margin: 0.3125em;
+  padding: 0.625em;
+}
+
+h1{
+  color: #6f7272;
+  margin: 0.125em;
+  font-size: 2.81em;
+  font-family: sans-serif;
+}
+
+h2{
+  margin: 0.3125em;
+  color: #326838;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+div #leftnav{
+  margin: 0.3125em;
+}
+
+#leftnav {
+ list-style-type: none;
+ position: absolute;
+ margin-top: -37.89em;
+ margin-left: 0.3125em;
+ max-width: 9.375em;
+ border-style: dashed;
+ border-width: thin;
+ background-color: #ffffff;
+ font-family: sans-serif;
+ font-weight: bolder;
+ font-size: 18px;
+
+}
+
+#leftnav h2{
+  font-size: 22px;
+}
+
+#leftnav p{
+  margin: 1em;
+  align-items: center;
+
+}
+
+#leftnav a{
+ display: block;
+ text-decoration: none;
+ font-size: 1em;
+ font-weight: bold;
+ color: #1c807f;
+
+}
+
+a:hover{
+ background-color: #a6a8a8;
+}
+
+
+
+.content{
+  position: static;
+  display: inline-block;
+  max-width: 56.75em;
+  max-height: 21.875em;
+  margin-left: 11.5125em;
+  margin-right: 12.3125em;
+  margin-bottom: 1.125em;
+  border-left-style: solid;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+
+.content p h1 h2{
+  padding-left: 1.25em;
+}
+
+#rightnav {
+ position: sticky;
+ margin-top: -37.89em;
+ padding: 0.625em;
+ width: 9.375em;
+ max-height: 63.875em;
+ background-color: #efefef;
+ border-style: dashed;
+ border-width:thin;
+ font-size: large;
+ font-family: sans-serif;
+ float: right;
+
+}
+
+#rightnav p{
+  font-weight: lighter;
+  font-stretch: expanded;
+
+}
+
+#rightnav h2{
+  font-size: 18px;
+  font-weight: bolder;
+}
